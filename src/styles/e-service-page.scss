@@ -1,0 +1,8 @@
+#e-service {
+  @media only screen and (max-width: 767px) {
+    .e-service-card {
+      width: calc(100vw - 2rem); /* Assuming 16px padding on each side */
+      background-position: 75%;
+    }
+  }
+}

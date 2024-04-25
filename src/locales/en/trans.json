@@ -1,0 +1,131 @@
+{
+  "header": {
+    "top-up": "Top up",
+    "package": "On top package",
+    "register-sim": "Active New SIM",
+    "language": {
+      "thai": "TH",
+      "english": "EN"
+    }
+  },
+  "footer": {
+    "contact-address-title": "Contact us",
+    "contact-phone-title": "Contact us via",
+    "contact-other-title": "or through other channels"
+  },
+  "page-not-found": {
+    "title": "Sorry, page not found!",
+    "subtitle": "Sorry, we couldn’t find the page you’re looking for. Perhaps you’ve mistyped the URL? Be sure to check your spelling.",
+    "btn-home": "Go to Home"
+  },
+  "home-page": {
+    "four": {
+      "title": "Various packages suitable for every lifestyle",
+      "subtitle": "Choose to suit you.",
+      "package-title": "Our packages",
+      "btn-buy-now": "Buy Now",
+      "q-and-a-title": "คำถามที่พบบ่อย",
+      "q-1": "เช็กยอดเงินและวันคงเหลือ?",
+      "a-1": "กด *4111# แล้วกดโทรออก",
+      "q-2": "เช็กอัตราค่าบริการ?",
+      "a-2": "กด *4112# แล้วกดโทรออก",
+      "q-3": "เช็กแพ็กเกจเสริมปัจจุบัน?",
+      "a-3": "กด *4113# แล้วกดโทรออก"
+    },
+    "five": {
+      "title": "Download the Feels Dealer SIM app",
+      "detail": "Make your user experience easy. Top up, apply for additional packages, register for a SIM, all in one app."
+    }
+  },
+  "top-up-page": {
+    "step1": {
+      "title": "Top Up",
+      "subtitle": "Select the amount you want to top up.",
+      "payment-label": "Pay via QR Code",
+      "phone-label": "Specify the phone number you want to top up.",
+      "phone-placeholder": "Enter your phone number",
+      "phone-require-input": "Please enter your phone number.",
+      "phone-format": "Please enter your phone number correctly.",
+      "top-up-amount-label": "Specify the amount you want to top up.",
+      "top-up-duration": "{{duration}} Days",
+      "remark-1": "Please check your details before pressing the payment button.",
+      "remark-2": "The amount of money in the SIM is for use only. Cannot be used to purchase packages.",
+      "btn-next": "Confirm",
+      "top-up-amount-require": "Please select the amount you want to top up.",
+      "not-available-phone-number": "This phone number is not available for transactions.",
+      "cannot-get-phone-number": "Unable to retrieve phone number information.",
+      "not-found-phone-number": "Phone number not found."
+    },
+    "step2": {
+      "payment-channels-title": "Payment Method",
+      "selected-label": "Select",
+      "qr-code-detail-1": "Scan or Upload QR Code via your mobile banking app. Code will be valid for 1 day",
+      "qr-code-detail-2": "If you choose to pay via QR Code, Please wait for the message confirming the transaction again via SMS.",
+      "your-phone-number": "Your Phone Number",
+      "service-fee": "Service fee",
+      "vat": "VAT",
+      "total": "Total",
+      "btn-next": "Pay Now",
+      "channels-require": "Please select payment method",
+      "cannot-get-order": "Can't check order",
+      "duplicate-order": "Duplicate order",
+      "cannot-create-order": "Can't generate order",
+      "cannot-generate-qr-code": "Can't generate QR Code"
+    },
+    "result": {
+      "title": "Pay with QR Code via Mobile Banking",
+      "info": "Please complete the transaction within 1 day",
+      "reference-no": "Reference No.",
+      "btn-save": "Save picture"
+    },
+    "error": {}
+  },
+  "package-page": {
+    "step1": {
+      "title": "Extra Package",
+      "btn-buy-now": "Buy Now"
+    },
+    "step2": {
+      "payment-channels-title": "Payment Method",
+      "selected-label": "Select",
+      "qr-code-detail-1": "Scan or Upload QR Code via your mobile banking app. Code will be valid for 1 day",
+      "qr-code-detail-2": "If you choose to pay via QR Code, Please wait for the message confirming the transaction again via SMS.",
+      "sim-balance": "SIM Balance",
+      "sim-balance-detail-1": "The system will deduct the remaining balance within the SIM for this item. Please wait and do not turn off the screen until the transaction is displayed again.",
+      "sim-balance-detail-2": "If the transaction is successful, there will be a message confirming the transaction again.",
+      "phone-number-label": "Phone number to purchase extra package",
+      "phone-placeholder": "Enter your phone number",
+      "service-fee": "Service fee",
+      "vat": "VAT",
+      "total": "Total",
+      "btn-next": "Pay Now",
+      "channels-require": "Please select payment method",
+      "not-available-phone-number": "This phone number is not available for transactions.",
+      "cannot-get-phone-number": "Unable to retrieve phone number information.",
+      "not-found-phone-number": "Phone number not found.",
+      "cannot-get-order": "Can't check order",
+      "duplicate-order": "Duplicate order",
+      "cannot-create-order": "Can't generate order",
+      "order-type-not-support": "Top up type not support with this payment method",
+      "cannot-get-sim-balance": "Can't get SIM information",
+      "insufficient-sim-balance": "Insufficient SIM balance",
+      "cannot-adjust-sim-balance": "Can't decrease SIM balance"
+    },
+    "result": {
+      "qr-code": {
+        "title": "Pay with QR Code via Mobile Banking",
+        "info": "Please complete the transaction within 1 day",
+        "reference-no": "Reference No.",
+        "btn-save": "Save picture"
+      },
+      "sim-balance": {
+        "title": "Pay through the remaining balance within the SIM.",
+        "detail": "Please wait for the message confirming your application for the extra package again.",
+        "reference-no": "Reference No."
+      }
+    }
+  },
+  "error": {
+    "toast-internal-error": "Something wrong, Please try again."
+  }
+}

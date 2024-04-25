@@ -1,0 +1,84 @@
+#apk-app {
+  .mingalaba-app {
+    box-sizing: border-box;
+    background-color: #000;
+    padding: 0.5em;
+  }
+
+  .mingalaba-app__section {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    justify-content: center;
+  }
+
+  .mingalaba-app-text {
+    color: #fff;
+    min-width: 320px;
+    border-right: 0.25em solid #fff;
+    border-left: 0.25em solid #fff;
+    padding: 0 1em;
+    width: 45%;
+    margin: 1em auto;
+    display: block;
+  }
+
+  .mingalaba-app-text__tagline {
+    font-size: 1.09em;
+  }
+
+  .mingalaba-app-text__download {
+    font-size: 2.25em;
+    font-weight: 600;
+  }
+
+  .mingalaba-app-buttons {
+    margin: 0 auto;
+    max-width: 35%;
+    display: block;
+  }
+
+  .mingalaba-app-buttons__buttons {
+    display: block;
+  }
+
+  .mingalaba-app-buttons__logo {
+    display: inline-block;
+  }
+
+  .mingalaba-app-subsection {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+  }
+
+  .mingalaba-app__bbc-logo {
+    display: inline-block;
+    width: 106px;
+    margin-bottom: 8px;
+  }
+
+  .mingalaba-app__play-store,
+  .mingalaba-app__app-store,
+  .mingalaba-app__apk {
+    display: block;
+    width: 161px;
+    height: auto;
+    margin-bottom: 8px;
+  }
+
+  .mingalaba-app-subsection--link {
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+  }
+
+  @media (max-width: 576px) {
+    .mingalaba-app-text {
+      min-width: 360px !important;
+    }
+  }
+}
